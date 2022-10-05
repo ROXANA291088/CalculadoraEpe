@@ -1,0 +1,57 @@
+body {
+    background-color: #12264d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+form {
+    text-align: left;
+    padding: 200px;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: ruby-base-container;
+
+
+  }
+button{
+    color: black;
+    text-align: center;
+}  
+title {
+    text-align: center;
+
+}
+section {
+    background-image: url("logo-epe-empresa.png");
+    background-position: 20px 30px;
+       }
+       
+.responsivo {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+  @media only screen and (max-width: 700px){
+.responsivo {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  @media only screen and (max-width: 500px){
+.responsivo {
+      width: 100%;
+    }
+}

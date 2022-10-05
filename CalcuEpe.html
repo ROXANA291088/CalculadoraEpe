@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA EPE</title>
+    <script src="./CalcuEpe.html"></script>
+    <link rel="stylesheet" href="./Calcu.css">
+   
+</head>
+<body>
+    <img src="./logo-epe-empresa.png" alt="">
+    <form action="Form.js">
+        <label for="Tipo de usuario">Tipo de usuario</label>
+        <select name="Tipo de usurios" id="Tipo de usuario">
+           <option value="Residencial">Residencial</option>
+           <option value="Industrial">Industrial</option>
+           
+        </select>
+
+        <label for="Zona de domicilio">Zona de Domicilio</label>
+        <select name="Zona de Domicilio" id="Zona de Domicilio">
+          <option value="Distrito Centro"> Distrito Centro: $5,80 kwk</option>
+          <option value="Distrito Sur">Distrito Sur: $5,30 kwk</option>
+          <option value="Distrito Oeste">Distrito Oeste: $5,35 kwk</option>
+          <option value="Distrito Norte">Distrito Norte: $5,60 kwk</option>
+          
+        </select>
+
+        <label for="Cantidad de kWk al mes">Cant de kWk al Mes</label>
+        <input type="number" name="number" id="Cant de kWk">
+        <br>
+        <br>
+     <button>Consultar</button>
+
+    </form>
+    
+</body>
+</html>
