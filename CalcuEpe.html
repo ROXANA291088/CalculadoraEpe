@@ -7,29 +7,34 @@
     <title>CALCULADORA EPE</title>
     <script src="./CalcuEpe.html"></script>
     <link rel="stylesheet" href="./Calcu.css">
+    <script src="Form.js"></script>
    
 </head>
 <body>
     <img src="./logo-epe-empresa.png" alt="">
     <form action="Form.js">
         <label for="Tipo de usuario">Tipo de usuario</label>
-        <select name="Tipo de usurios" id="Tipo de usuario">
-           <option value="Residencial">Residencial</option>
-           <option value="Industrial">Industrial</option>
+           <input type="radio" value="1" name="residencial">Residencial
+           <input type="radio" value="2" name="Industrial">Industrial
            
         </select>
-
+        <br>
+        <br>
+        
         <label for="Zona de domicilio">Zona de Domicilio</label>
-        <select name="Zona de Domicilio" id="Zona de Domicilio">
-          <option value="Distrito Centro"> Distrito Centro: $5,80 kwk</option>
-          <option value="Distrito Sur">Distrito Sur: $5,30 kwk</option>
-          <option value="Distrito Oeste">Distrito Oeste: $5,35 kwk</option>
-          <option value="Distrito Norte">Distrito Norte: $5,60 kwk</option>
+        <select name="Zona de Domicilio" id="Zona">
+          <option value="1"> Distrito Centro: $5,80 kwk</option>
+          <option value="2">Distrito Sur: $5,30 kwk</option>
+          <option value="3">Distrito Oeste: $5,35 kwk</option>
+          <option value="4">Distrito Norte: $5,60 kwk</option>
           
         </select>
 
         <label for="Cantidad de kWk al mes">Cant de kWk al Mes</label>
-        <input type="number" name="number" id="Cant de kWk">
+        <input name="number" id="CantdekWk">
+        <label for="Calculo de consumo">Calculo de consumo</label>
+        <input type="number" name="number" id="Calculo">
+        
         <br>
         <br>
      <button>Consultar</button>

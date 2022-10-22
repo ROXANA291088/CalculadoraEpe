@@ -2,11 +2,12 @@ body {
     background-color: #12264d;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: 80%;
     color: white;
+    box-sizing: content-box;
+    padding: auto;
   }
 
 input {
@@ -18,17 +19,18 @@ input {
   }
 form {
     text-align: left;
-    padding: 200px;
+    padding: 210px;
     background-color: blue;
-    height: 100px;
-    width: 100px;
+    height: 170px;
+    width: 170px;
     display: ruby-base-container;
-
+    
 
   }
 button{
     color: black;
     text-align: center;
+    padding: auto;
 }  
 title {
     text-align: center;
